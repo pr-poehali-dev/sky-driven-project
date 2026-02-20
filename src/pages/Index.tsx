@@ -126,7 +126,7 @@ export default function Index() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c01c4ae5-ce27-4abd-aeda-25ab4a98d5e3.jpg)`,
+            backgroundImage: `url(https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c448153e-4677-425b-b568-a4c6c08cc16c.jpg)`,
             opacity: 0.35,
           }}
         />
@@ -194,7 +194,7 @@ export default function Index() {
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
               <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-purple-500 flex-shrink-0 shadow-[0_0_40px_rgba(147,51,234,0.5)]">
                 <img
-                  src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/31236108-bad2-4cce-9612-9005cd5ed9d0.jpg"
+                  src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c3814b71-4801-4f3c-8404-46c5d3e8d71f.jpg"
                   alt="Румиля — певица"
                   className="w-full h-full object-cover"
                 />
@@ -246,21 +246,21 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
             <div className="rounded-xl overflow-hidden aspect-square shadow-[0_0_20px_rgba(147,51,234,0.3)] hover:shadow-[0_0_40px_rgba(147,51,234,0.6)] transition-shadow duration-300">
               <img
-                src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/31236108-bad2-4cce-9612-9005cd5ed9d0.jpg"
+                src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c3814b71-4801-4f3c-8404-46c5d3e8d71f.jpg"
                 alt="Румиля — портрет"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-xl overflow-hidden aspect-square shadow-[0_0_20px_rgba(147,51,234,0.3)] hover:shadow-[0_0_40px_rgba(147,51,234,0.6)] transition-shadow duration-300">
               <img
-                src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/af7b0c2c-0dad-4c23-aae2-6611dd78cbb7.jpg"
+                src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c254bc4c-4a7b-4034-8c25-065116531286.jpg"
                 alt="Румиля на сцене"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-xl overflow-hidden aspect-square shadow-[0_0_20px_rgba(147,51,234,0.3)] hover:shadow-[0_0_40px_rgba(147,51,234,0.6)] transition-shadow duration-300">
               <img
-                src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c01c4ae5-ce27-4abd-aeda-25ab4a98d5e3.jpg"
+                src="https://cdn.poehali.dev/projects/11ad4c8a-3391-40ed-8042-618d771a68ec/files/c448153e-4677-425b-b568-a4c6c08cc16c.jpg"
                 alt="Румиля — концерт"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
