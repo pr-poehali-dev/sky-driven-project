@@ -91,6 +91,16 @@ export default function Index() {
       artist: "Гражданская оборона",
       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     },
+    {
+      title: "Ландыши (Remastered 2022)",
+      artist: "ЕБАНЬКО",
+      src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    },
+    {
+      title: "Олений Пенис",
+      artist: "ЭЛЕКТРОСЛАБОСТЬ",
+      src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    },
   ]
 
   return (
@@ -296,17 +306,19 @@ export default function Index() {
           >
             <MusicPlayer tracks={tracks} />
 
-            <div className="mt-8 grid grid-cols-1 gap-4">
-              <div className="bg-gray-800 rounded-lg p-5 flex items-center gap-4 hover:bg-gray-700 transition-colors">
-                <div className="w-14 h-14 rounded-lg bg-purple-700 flex items-center justify-center flex-shrink-0">
-                  <Icon name="Music" size={24} className="text-white" />
+            <div className="mt-8 grid grid-cols-1 gap-3">
+              {tracks.map((t, i) => (
+                <div key={i} className="bg-gray-800 rounded-lg p-5 flex items-center gap-4 hover:bg-gray-700 transition-colors">
+                  <div className="w-12 h-12 rounded-lg bg-purple-700 flex items-center justify-center flex-shrink-0 text-white font-bold text-sm">
+                    {i + 1}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-white truncate">{t.title}</p>
+                    <p className="text-sm text-gray-400">{t.artist}</p>
+                  </div>
+                  <Icon name="Music2" size={18} className="text-purple-400 flex-shrink-0" />
                 </div>
-                <div className="flex-1">
-                  <p className="font-semibold text-white">Беспонтовый пирожок</p>
-                  <p className="text-sm text-gray-400">Гражданская оборона</p>
-                </div>
-                <Icon name="Play" size={20} className="text-purple-400" />
-              </div>
+              ))}
             </div>
 
             <div className="mt-10 flex justify-center gap-4">
